@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title></title>
+</head>
+<script>
+    var edad = parseInt(prompt("ingresa tu edad"));
+    var estatura = parseFloat(prompt("ingresa tu estatura en (M)"));
+    var peso = parseFloat(prompt("ingresa tu peso en (kg)"));
+    var IMC = peso/estatura;
+
+    if(edad < 45){
+        if(IMC < 22.0){
+            console.log("Bajo");
+        }else{
+            console.log("Medio");}
+    }else{
+        if(IMC < 22.0){
+            console.log("Medio");
+        }else{
+            console.log("Alto");}
+    }
+    
+</script>
+<body>
+   //Quinto ejercicio Indice de masa muscular //
+</body>
+</html>
